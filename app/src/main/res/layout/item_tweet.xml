@@ -18,18 +18,40 @@
         android:id="@+id/tvScreenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="TextView"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/tvName"
         tools:text="andyle25" />
 
     <TextView
         android:id="@+id/tvBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvScreenName"
+        android:layout_below="@+id/tvName"
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="Wassup yo!" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textStyle="bold"
+        tools:text="Andy Le" />
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginLeft="368dp"
+        android:textAlignment="textEnd"
+        tools:text="1min" />
 </RelativeLayout>
