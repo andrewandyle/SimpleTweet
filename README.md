@@ -1,4 +1,4 @@
-# Project 2 - *SimpleTweet*
+﻿# Project 2 - *SimpleTweet*
 
 **SimpleTweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] User can **pull down to refresh tweets timeline**
-- [ ] User is using **"Twitter branded" colors and styles**
+- [x] User is using **"Twitter branded" colors and styles**
 - [ ] User sees an **indeterminate progress indicator** when any background or network task is happening
 - [ ] User can **select "reply" from detail view to respond to a tweet**
   - [ ] User that wrote the original tweet is **automatically "@" replied in compose**
@@ -32,7 +32,7 @@ The following **bonus** features are implemented:
 - [ ] Compose tweet functionality is build using modal overlay
 - [x] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
 - [ ] Replace all icon drawables and other static image assets with [vector drawables](http://guides.codepath.org/android/Drawables#vector-drawables) where appropriate.
-- [ ] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
+- [x] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
 - [ ] User can view following / followers list through any profile they view.
 - [ ] User can see embedded image media within the tweet detail view
 - [ ] Use the popular ButterKnife annotation library to reduce view boilerplate.
